@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        {% include head.html %}
+    </head>
+
+    <body>
+
+        <header>
+            {% include header.html %}
+        </header>
+
+        <main>
+
+            <section class="hero is-dark is-medium">
+
+                <div class="hero-body">
+
+                    <div class="container has-text-centered">
+
+                        <img class="title is-spaced" src="/images/lasts4el_light.svg" width="400">
+
+                        <p class="subtitle is-4 is-italic">
+                            <strong>L</strong>ast
+                            <strong>4</strong>
+                            <strong>E</strong>l
+                        </p>
+
+                        <div class="buttons is-centered">
+                            <a class="button is-large is-success" href="/setup">Get Started</a>
+                        </div>
+
+                    </div> <!-- container -->
+
+                </div> <!-- hero-body -->
+
+            </section>
+
+            <section class="section">
+
+                <div class="container">
+
+                    <div class="columns is-centered">
+                        <div class="column is-half">
+                            <h2 class="subtitle is-4 has-text-centered">
+                                Last4El is a yum repository that provides newer versions of selected software for RHEL and CentOS.
+                            </h2>
+                        </div> <!-- column -->
+                    </div> <!-- columns -->
+
+                </div> <!-- container -->
+
+            </section>
+
+            <section class="section">
+
+                <div class="container has-text-centered">
+
+                    <div class="columns">
+
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="icon title is-1">
+                                        <i class="fa fa-bolt fa-fw" aria-hidden="true"></i>
+                                    </span>
+                                    <p class="title is-5 is-spaced">Latest software for Enterprise Linux</p>
+                                    <p class="subtitle is-6">
+                                        RHEL typically prioritizes security and stability over adding new features.
+                                        This results in a secure and stable operating system, but there are times when
+                                        users are willing to sacrifice some of that stability in order to gain access
+                                        to the features found in newer software versions.
+                                    </p>
+                                </div> <!-- card-content -->
+                            </div> <!-- card -->
+                        </div> <!-- column -->
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="icon title is-1">
+                                        <i class="fa fa-ban fa-fw" aria-hidden="true"></i>
+                                    </span>
+                                    <p class="title is-5 is-spaced">Automatic replacement of stock packages</p>
+                                    <p class="subtitle is-6">
+                                        Packages use same name in favor for replace their stock equivalents.
+                                    </p>
+                                </div> <!-- card-content -->
+                            </div> <!-- card -->
+                        </div> <!-- column -->
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="icon title is-1">
+                                        <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>
+                                    </span>
+                                    <p class="title is-5 is-spaced">Follows upstream versions</p>
+                                    <p class="subtitle is-6">
+                                        Our packages track the latest upstream versions from their respective upstream
+                                        projects.  They are named in accordance with the upstream major version, and
+                                        will only be updated to the latest version of that major version branch.  They
+                                        will never be updated to the next major version.
+                                    </p>
+                                </div> <!-- card-content -->
+                            </div> <!-- card -->
+                        </div> <!-- column -->
+
+                    </div> <!-- columns -->
+
+                </div> <!-- container -->
+
+            </section>
+
+            <section class="section">
+
+                <div class="container">
+
+                    <div class="buttons is-centered">
+                        <a class="button is-large is-primary" href="https://github/yoannguion/">Repository</a>
+                        <a class="button is-large is-primary" href="https://github.com/search?q=org%3Ayoannguion+topic%3Arpm&s=updated">Package Sources</a>
+                        <a class="button is-large is-primary" href="https://github.com/yoannguion/wishlist/blob/master/.github/contributing.md">Request New Package</a>
+                    </div>
+
+                </div> <!-- container -->
+
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            {% include footer.html %}
+        </footer>
+
+    </body>
+
+</html>

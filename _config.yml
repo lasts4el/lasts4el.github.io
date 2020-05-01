@@ -1,0 +1,9 @@
+title: lasts4el
+description: Lasts4el is a yum repository that provides newer versions of selected software for RHEL and CentOS.
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: default
+kramdown:
+  smart_quotes: ['apos', 'apos', 'quot', 'quot']
