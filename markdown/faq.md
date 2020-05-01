@@ -16,4 +16,4 @@ version, it may be a good fit for Last4El.  You can open a new package request o
 our [wishlist][wishlist].
 
 [epel]: https://fedoraproject.org/wiki/EPEL
-[wishlist]: https://github.com/yoannguion/wishlist
+[wishlist]: https://github.com/lasts4el/wishlist

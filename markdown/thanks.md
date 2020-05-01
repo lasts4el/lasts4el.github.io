@@ -30,4 +30,4 @@ hosted on [GitHub Pages][pages].
 [centos]: https://www.centos.org
 [fedora]: https://getfedora.org
 [github]: https://github.com
-[specs]: https://github.com/search?q=org%3Ayoannguion+topic%3Arpm&s=updated
+[specs]: https://github.com/search?q=org%3Alasts4el+topic%3Arpm&s=updated
